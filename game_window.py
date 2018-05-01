@@ -1,6 +1,9 @@
 import pygame
 
-screen = pygame.display.set_mode([640,480])
+x = int(input("How wide? "))
+y = int(input("How tall? "))
+
+screen = pygame.display.set_mode([x,y])
 running = True
 
 while running:
