@@ -4,9 +4,8 @@ x = int(input("How wide? "))
 y = int(input("How tall? "))
 
 screen = pygame.display.set_mode([x,y])
-running = True
 
-while running:
+while True:
 	event = pygame.event.poll()
 	if event.type == pygame.QUIT:
-		running = False
+		break
